@@ -1,1 +1,3 @@
-﻿global using System.Collections.Generic;
+﻿// c# 10
+global using System;
+global using System.Collections.Generic;
