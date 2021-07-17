@@ -7,3 +7,5 @@ A C# project with some examples of what's new in C# 10.0
 ## Examples
 
 - Global using (define namespace imports across an entire project)
+- Constant interpolated strings
+- Record types can seal ToString
