@@ -17,5 +17,9 @@ A C# project with some examples of what's new in C# 10.0
 - Record types can seal ToString
 - Assignment and declaration in same deconstruction
 
+- `TODO` The field keyword
+- `TODO` Required properties
+- `TODO` Null parameter checking (!!)
+
 ## Contribute
 Contributions are welcome.
