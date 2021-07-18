@@ -1,7 +1,7 @@
 ﻿// C# 10 introduces a new pattern that lets you define namespace imports across an entire project using the global keyword.
 // It’s recommended that you place your global imports in a separate file (one for each project), possibly named usings.cs or imports.cs.
 // Check "Imports.cs" file
-using CSharp10NewFeatures.Records;
+Car car1 = new("volvo", "blue");
 
 Console.WriteLine("Hello C# 10");
 
@@ -18,8 +18,8 @@ Console.WriteLine(version_string_full);
 // Sealing the ToString method prevents the compiler from synthesizing a ToString method for any derived record types.
 // This ensures all derived record types use the ToString method defined in a common base record type.
 // Check "Vehicle.cs" file
-Car car = new("volvo", "blue");
-Console.WriteLine(car);
+Car car2 = new("volvo", "blue");
+Console.WriteLine(car2);
 
 // Assignment and declaration in same deconstruction
 int x = 0;
