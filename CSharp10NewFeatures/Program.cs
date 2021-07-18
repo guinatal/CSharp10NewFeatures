@@ -11,12 +11,13 @@ Console.WriteLine("Hello C# 10");
 // The placeholder expressions can't be numeric constants because those constants are converted to strings at runtime.
 const string version_string = "v1";
 const string version_string_full = $"version_{version_string}";
+Console.WriteLine(version_string_full);
 
 // Record types can seal ToString
 // In C# 10.0, you can add the sealed modifier when you override ToString in a record type.
 // Sealing the ToString method prevents the compiler from synthesizing a ToString method for any derived record types.
 // This ensures all derived record types use the ToString method defined in a common base record type.
-// Check "Car.cs" file
+// Check "Vehicle.cs" file
 Car car = new("volvo", "blue");
 Console.WriteLine(car);
 
@@ -24,5 +25,3 @@ Console.WriteLine(car);
 int x = 0;
 (x, int y) = (5, 10);
 Console.WriteLine(x);
-
-// File-scoped namespaces
