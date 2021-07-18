@@ -19,3 +19,10 @@ const string version_string_full = $"version_{version_string}";
 // Check "Car.cs" file
 Car car = new("volvo", "blue");
 Console.WriteLine(car);
+
+// Assignment and declaration in same deconstruction
+int x = 0;
+(x, int y) = (5, 10);
+Console.WriteLine(x);
+
+// File-scoped namespaces

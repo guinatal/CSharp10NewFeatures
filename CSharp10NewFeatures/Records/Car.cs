@@ -1,4 +1,4 @@
-﻿namespace CSharp10NewFeatures.Records
+﻿ namespace CSharp10NewFeatures.Records
 {
     public record Vehicle(string Name)
     {
